@@ -1,0 +1,25 @@
+{
+  "name": "telackbot",
+  "description": "A Hubot for telack",
+  "version": "0.0.0",
+  "author": {
+    "name": "bouzuya",
+    "email": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "hubot": "^2.11.4",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-slack": "^3.3.0",
+    "hubot-telack": "https://github.com/bouzuya/hubot-telack/archive/1.0.0.tar.gz"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "private": true,
+  "scripts": {
+    "robot": "HUBOT_LOG_LEVEL=debug hubot --name meowbot --adapter shell",
+    "start": "hubot --name meowbot --adapter slack"
+  }
+}
