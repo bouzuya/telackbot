@@ -19,7 +19,7 @@
   },
   "private": true,
   "scripts": {
-    "robot": "HUBOT_LOG_LEVEL=debug hubot --name meowbot --adapter shell",
-    "start": "hubot --name meowbot --adapter slack"
+    "robot": "HUBOT_LOG_LEVEL=debug hubot --name telackbot --adapter shell",
+    "start": "hubot --name telackbot --adapter slack"
   }
 }
